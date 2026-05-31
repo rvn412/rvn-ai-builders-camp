@@ -6,6 +6,13 @@ This file gives the Replit Agent context about this project so it gives better h
 
 This is a student project for **AI Builders Camp**, a coding camp for ages 13–17. The student is building an AI-powered web app over 8 sessions. The student is a beginner. Keep explanations simple, encouraging, and free of unnecessary jargon.
 
+## Instructor
+
+- **Name:** Samidha Visai
+- **Replit:** `svisai` (has collaborator access to this Repl)
+- **GitHub:** `samivis` (has collaborator access to this repo)
+- **Email:** svisai.tools@gmail.com
+
 ## Tech stack (do not change without asking the student)
 
 - **Language:** Python 3.11
@@ -19,8 +26,8 @@ This is a student project for **AI Builders Camp**, a coding camp for ages 13–
 - AI access comes from Replit Managed AI via two environment variables that are set up automatically: `AI_INTEGRATIONS_OPENAI_BASE_URL` and `AI_INTEGRATIONS_OPENAI_API_KEY`.
 - If those env vars are missing, run the Replit AI integration setup — do not ask the student for keys.
 - All AI calls should go through the `ask_ai()` helper in `ai_helper.py`, which already handles the connection. Reuse it instead of creating new OpenAI clients.
-- Default model is `gpt-5-mini` (fast and affordable). Only change it if the student asks.
-- For gpt-5 models: do not set `temperature`, and use `max_completion_tokens` (not `max_tokens`).
+- Default model is `gpt-4o-mini` (fast and affordable). Only change it if the student asks.
+- For gpt-4o models: do not set `temperature`, and use `max_completion_tokens` (not `max_tokens`).
 
 ## How to run
 
