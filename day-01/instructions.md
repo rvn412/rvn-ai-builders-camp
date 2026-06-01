@@ -76,7 +76,7 @@ Type something into your app. Try: "black holes," "the stock market," "why peopl
 
 Click **Deploy** (top right of Replit) → choose **Static** or **Autoscale** → click **Deploy**. You'll get a live URL like `explain-anything.yourusername.repl.app`.
 
-> ✅ Ship proof: post your live URL in `#day-1-ships` in Discord.
+> ✅ Ship proof: post your live URL in `#lesson-1` in Discord.
 
 ---
 
@@ -99,7 +99,7 @@ Ask Agent if you're not sure how to change it: *"How do I change the SYSTEM_PROM
 Before you leave today, you should have:
 - [ ] A working AI tool that responds to input
 - [ ] A live deployed URL
-- [ ] That URL posted in `#day-1-ships`
+- [ ] That URL posted in `#lesson-1`
 - [ ] (Bonus) GitHub first commit if your account is ready
 
 ---

@@ -81,7 +81,7 @@ Pick exactly one and do it now, during the session:
 
 | Move | Who can do it |
 |---|---|
-| Post in `#day-6-ships` with your live URL + 1-sentence pitch | Everyone |
+| Post in `#lesson-6` with your live URL + 1-sentence pitch | Everyone |
 | Text a parent, sibling, or friend the link and ask them to try it | Everyone |
 | Send to a parent-approved friend outside camp | Everyone |
 | Post to a relevant subreddit or TikTok | **Only with explicit parent approval** |
@@ -89,7 +89,7 @@ Pick exactly one and do it now, during the session:
 
 Do the move. Don't describe the move you'll do later. Do it now.
 
-> ✅ Ship proof: post evidence of your GTM move in `#day-6-ships`. "I texted my cousin" + screenshot counts.
+> ✅ Ship proof: post evidence of your GTM move in `#lesson-6`. "I texted my cousin" + screenshot counts.
 
 ---
 

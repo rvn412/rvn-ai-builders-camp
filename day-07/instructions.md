@@ -92,7 +92,7 @@ Rules:
 
 Commit message: `"Day 7: final polish — 3 friction fixes, demo-ready"`
 
-> ✅ Ship proof: final GitHub push link + your 3 friction fixes posted in `#day-7-ships`.
+> ✅ Ship proof: final GitHub push link + your 3 friction fixes posted in `#lesson-7`.
 
 ---
 

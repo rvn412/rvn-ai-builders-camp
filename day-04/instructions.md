@@ -99,7 +99,7 @@ At minute 50, every student shares their screen for 60 seconds:
 
 This isn't a presentation. It's a checkpoint. You get one piece of feedback from the group.
 
-> ✅ Ship proof: midpoint demo completed. Screenshot or recording posted in `#day-4-ships`.
+> ✅ Ship proof: midpoint demo completed. Screenshot or recording posted in `#lesson-4`.
 
 ---
 

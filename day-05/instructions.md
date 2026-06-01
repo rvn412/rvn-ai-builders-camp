@@ -107,7 +107,7 @@ You'll need a bot token from the Discord Developer Portal. Ask Agent: *"Walk me 
 
 At minute 50, 3–4 students share their screen and show their agent doing one real thing live.
 
-> ✅ Ship proof: agent running with real output posted in `#day-5-ships`. Video or screenshot.
+> ✅ Ship proof: agent running with real output posted in `#lesson-5`. Video or screenshot.
 
 ---
 

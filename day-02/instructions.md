@@ -91,7 +91,7 @@ Save your spec to the repo and verify everything runs:
 
 If GitHub is set up, push: commit message `"Day 2: spec + scaffold"`
 
-> ✅ Ship proof: running scaffold + spec posted in `#day-2-ships`.
+> ✅ Ship proof: running scaffold + spec posted in `#lesson-2`.
 
 ---
 
