@@ -44,4 +44,8 @@ def ask():
 if __name__ == "__main__":
     # 0.0.0.0 + the PORT Replit gives us = your app shows up in the preview window.
     port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port)
+    # While you're building, debug mode auto-reloads the app every time you save —
+    # no need to stop and click Run again. It's turned off automatically when your
+    # app is deployed (live), so the public version stays fast and safe.
+    is_dev = os.environ.get("REPLIT_DEPLOYMENT") != "1"
+    app.run(host="0.0.0.0", port=port, debug=is_dev)
