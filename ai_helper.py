@@ -18,15 +18,8 @@ from openai import OpenAI
 
 # These two values are set up automatically by Replit when AI is connected.
 # You never type a key. You never see a key. Replit handles it.
-#
-# We read them fresh on every call (not just once when the file loads) so that
-# the moment Replit finishes connecting AI, your app picks it up — no need to
-# edit this file.
-def _ai_credentials():
-    return (
-        os.environ.get("AI_INTEGRATIONS_OPENAI_BASE_URL"),
-        os.environ.get("AI_INTEGRATIONS_OPENAI_API_KEY"),
-    )
+BASE_URL = os.environ.get("AI_INTEGRATIONS_OPENAI_BASE_URL")
+API_KEY  = os.environ.get("AI_INTEGRATIONS_OPENAI_API_KEY")
 
 # Which AI model to use.
 #
@@ -58,8 +51,7 @@ _CAMP_GUIDELINES = (
 
 def ai_is_connected():
     """True if Replit AI is set up and ready to go."""
-    base_url, api_key = _ai_credentials()
-    return bool(base_url) and bool(api_key)
+    return bool(BASE_URL) and bool(API_KEY)
 
 
 def ask_ai(prompt, system_prompt="You are a helpful, friendly assistant."):
@@ -70,24 +62,18 @@ def ask_ai(prompt, system_prompt="You are a helpful, friendly assistant."):
     system_prompt = the AI's personality / instructions (this is where the magic is —
                     change it to change how your tool behaves!)
     """
-    base_url, api_key = _ai_credentials()
-    if not (base_url and api_key):
+    if not ai_is_connected():
         return (
-            "AI isn't connected yet.\n"
-            "\n"
-            "In the Agent panel, say:\n"
-            '  "Please set up Replit AI so my app can make AI calls."\n'
-            "Approve the OpenAI integration, then verify your phone if asked.\n"
-            "\n"
-            "Still seeing this afterward? The keys sometimes don't save on the\n"
-            "first try. Tell the Agent (the exact variable names matter):\n"
-            '  "Connect the Replit-managed OpenAI integration and make sure both\n'
-            "   AI_INTEGRATIONS_OPENAI_BASE_URL and AI_INTEGRATIONS_OPENAI_API_KEY\n"
-            '   are set in this Repl, then restart the app."\n'
-            "Then run your app again."
+            "AI isn't connected yet!\n\n"
+            "1. Click the Agent button (top right — sparkle icon)\n"
+            "2. Type: Please set up Replit AI so my app can make AI calls.\n"
+            "3. When the popup appears, click Approve (not Dismiss!)\n"
+            "4. Replit may ask for your phone number — that's normal, do it\n"
+            "5. Hit Run again once Agent says it's done\n\n"
+            "Still broken? Ask your instructor."
         )
 
-    client = OpenAI(base_url=base_url, api_key=api_key)
+    client = OpenAI(base_url=BASE_URL, api_key=API_KEY)
 
     # Combine camp guidelines with the student's custom system prompt.
     full_system = f"{_CAMP_GUIDELINES}\n\n{system_prompt}"
