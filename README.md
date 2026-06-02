@@ -17,33 +17,35 @@ Do these steps **in order**. Each one takes 2–3 minutes.
 You need your own copy of this project so your work is saved under your name.
 
 1. Make sure you're signed in to **GitHub** at [github.com](https://github.com)
-2. Click **Fork** (top right of this page) → **Create fork**
-3. You now have your own copy at `github.com/YOUR-USERNAME/testingtesting`
+2. Click **Fork** (top right of this page)
+3. In the **Repository name** box, name it after yourself so your instructor can tell projects apart — for example `maya-ai-builders-camp` or `jordan-ai-camp`
+4. Click **Create fork**
+5. You now have your own copy at `github.com/YOUR-USERNAME/maya-ai-builders-camp`
 
 > **Don't have a GitHub account?** Sign up free at [github.com/signup](https://github.com/signup) — use your real name, this will be your coding portfolio.
 
 ---
 
-### Step 2 — Open your fork in Replit (2 min)
+### Step 2 — Create your Replit account & upgrade to Core (3 min)
+
+AI calls cost credits, and Replit Core gives you the credits you need — so set this up before you import.
 
 1. Go to [replit.com](https://replit.com) and sign in (or sign up free)
-2. Click **+ Create Repl** → **Import from GitHub**
-3. Paste your fork's URL: `https://github.com/YOUR-USERNAME/testingtesting`
-4. Click **Import from GitHub** — Replit will set everything up
+2. Replit often offers **Core when you sign up** — if you see that prompt, just upgrade right there
+3. Otherwise, click your **profile photo** → **Upgrade to Core**
+4. Follow the steps — you'll need a parent's help if you're under 18 (it's the only paid step, ~$20/month, cancel anytime)
 
-> ✅ Your Replit is now linked to **your** GitHub repo. When you push, it goes to your repo — not the original template.
+> **Already on Core?** Skip ahead to the import.
 
 ---
 
-### Step 3 — Sign up for Replit Core (2 min)
+### Step 3 — Import your fork into Replit (2 min)
 
-AI calls cost credits. Replit Core gives you the credits you need.
+1. In Replit, click **+ Create Repl** → **Import from GitHub**
+2. Paste **your fork's** URL: `https://github.com/YOUR-USERNAME/maya-ai-builders-camp`
+3. Click **Import from GitHub** — Replit will set everything up
 
-1. In Replit, click your profile photo → **Upgrade to Core**
-2. Follow the steps — you'll need a parent's help if you're under 18
-3. Once you're on Core, come back here
-
-> **Already on Core?** Skip this step.
+> ✅ Your Replit is now linked to **your own** GitHub repo. When you push, it goes to your repo — not the original template.
 
 ---
 
@@ -68,8 +70,8 @@ This connects your app to a real AI model using your Replit credits. You do this
 1. Click the **Agent** button (top right of Replit, looks like a sparkle or chat icon)
 2. Type exactly this:
    > `Please set up Replit AI so my app can make AI calls.`
-3. The Agent will show you an **OpenAI integration** to approve — click **Approve** (not dismiss!)
-4. ⚠️ **Replit may ask you to verify your phone number** — this is normal and required. Do it.
+3. The Agent will show you an **OpenAI integration** to approve — click **Approve** (not Dismiss!)
+4. ⚠️ **Replit may ask you to verify your phone number** — this is a one-time check and required. A parent's phone is fine; Replit only texts once.
 5. Wait for Agent to finish — it will say the app is ready
 
 > If you accidentally click **Dismiss** on the integration popup, just type the same message again and approve it the second time.
@@ -83,7 +85,7 @@ This connects your app to a real AI model using your Replit credits. You do this
 3. Type a topic like `black holes` and click **Explain it →**
 4. You should get a real AI answer — not an error message
 
-> ❌ **Still seeing "AI isn't connected yet"?** Go back to Step 5 and ask Agent again.
+> ❌ **Still seeing "AI isn't connected yet"?** Go back to Step 5 and ask the Agent again. The error message in the app tells you exactly what to paste if the keys didn't save the first time.
 
 ---
 
@@ -96,7 +98,7 @@ This saves your work to GitHub for the first time — version control is now set
 3. Type a commit message like `Day 1 setup complete`
 4. Click **Commit & push**
 
-> ✅ Go to `github.com/YOUR-USERNAME/testingtesting` — you should see your files there. That's your code, saved and backed up.
+> ✅ Go to `github.com/YOUR-USERNAME/maya-ai-builders-camp` — you should see your files there. That's your code, saved and backed up.
 
 ---
 
@@ -105,7 +107,7 @@ This saves your work to GitHub for the first time — version control is now set
 So your instructor can help you directly without screensharing:
 
 **On Replit:**
-- Click **Share** (top right) → type `svisai` → add as collaborator
+- Click **Invite** (top right of the editor, next to **Publish**) → in the **email** box type `sami.v.95@gmail.com` → click **Invite**
 
 **On GitHub:**
 - Go to your repo → **Settings** → **Collaborators** → **Add people** → search `samivis`
