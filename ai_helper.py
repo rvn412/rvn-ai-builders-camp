@@ -80,9 +80,10 @@ def ask_ai(prompt, system_prompt="You are a helpful, friendly assistant."):
             "Approve the OpenAI integration, then verify your phone if asked.\n"
             "\n"
             "Still seeing this afterward? The keys sometimes don't save on the\n"
-            "first try. Tell the Agent:\n"
-            '  "The AI secrets aren\'t set yet -- please re-provision the OpenAI\n'
-            '   integration and restart the app."\n'
+            "first try. Tell the Agent (the exact variable names matter):\n"
+            '  "Connect the Replit-managed OpenAI integration and make sure both\n'
+            "   AI_INTEGRATIONS_OPENAI_BASE_URL and AI_INTEGRATIONS_OPENAI_API_KEY\n"
+            '   are set in this Repl, then restart the app."\n'
             "Then run your app again."
         )
 
