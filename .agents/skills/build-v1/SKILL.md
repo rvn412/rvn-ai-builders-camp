@@ -9,7 +9,6 @@ When the student is on Day 4 and has both `spec.md` and `design-spec.md`, or say
 ## Replit rules
 - For AI calls: use `ask_ai()` from `ai_helper.py`. Do NOT create a new OpenAI client or ask the student for an API key — Replit Managed AI is already wired up.
 - For packages: add them to `requirements.txt` (Replit installs automatically). Do not instruct the student to run `pip install` in a terminal.
-- For deployment: tell the student to use the Replit **Publish** button. There is no CLI deploy step.
 - Keep the app simple: main logic in `main.py`, pages in `templates/`, styles in `static/`. Don't add new entry-point files or a build step.
 
 ## Workflow
