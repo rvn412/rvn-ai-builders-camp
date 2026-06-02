@@ -49,21 +49,7 @@ AI calls cost credits, and Replit Core gives you the credits you need — so set
 
 ---
 
-### Step 4 — Connect GitHub to Replit's Git tab (3 min)
-
-This is what lets you push your code to GitHub from inside Replit.
-
-1. In your Replit project, click the **Git** icon in the left sidebar (looks like a branch)
-2. Click **Settings** (gear icon, top right of the Git panel)
-3. Under **Connections**, click **Sign in** next to GitHub
-4. Authorize Replit — it'll redirect back automatically
-5. You should see **GitHub ● Active**
-
-> ⚠️ **Do this step before the AI step.** The GitHub connection can sometimes drop, and it's easier to fix before everything else is running.
-
----
-
-### Step 5 — Set up AI (3 min)
+### Step 4 — Set up AI (3 min)
 
 This connects your app to a real AI model using your Replit credits. You do this once.
 
@@ -78,31 +64,32 @@ This connects your app to a real AI model using your Replit credits. You do this
 
 ---
 
-### Step 6 — Run your app and test AI (2 min)
+### Step 5 — Run your app and test AI (2 min)
 
 1. Click the green **Run** button at the top
 2. The **Explain Anything** app opens in the preview window (right side)
 3. Type a topic like `black holes` and click **Explain it →**
 4. You should get a real AI answer — not an error message
 
-> ❌ **Still seeing "AI isn't connected yet"?** Go back to Step 5 and ask the Agent again. The error message in the app tells you exactly what to paste if the keys didn't save the first time.
+> ❌ **Still seeing "AI isn't connected yet"?** Go back to Step 4 and ask the Agent again. The error message in the app tells you exactly what to paste if the keys didn't save the first time.
 
 ---
 
-### Step 7 — Make your first commit & push (2 min)
+### Step 6 — Save your work to GitHub (2 min)
 
-This saves your work to GitHub for the first time — version control is now set up.
+The easiest, most reliable way to back up your code is to let the **Agent** do it for you — no Git tab to set up.
 
-1. Click the **Git** icon in the left sidebar
-2. Under **Changes**, you'll see your files listed
-3. Type a commit message like `Day 1 setup complete`
-4. Click **Commit & push**
+1. Open the **Agent** panel (top right)
+2. Type exactly:
+   > `Please push my code to GitHub.`
+3. If a **Connect GitHub** card pops up, click **Connect GitHub** and authorize — this happens once, then the Agent remembers it
+4. The Agent saves everything to your repo and tells you when it's done
 
-> ✅ Go to `github.com/YOUR-USERNAME/maya-ai-builders-camp` — you should see your files there. That's your code, saved and backed up.
+> ✅ Go to `github.com/YOUR-USERNAME/maya-ai-builders-camp` — you should see your files there. That's your code, saved and backed up. From now on, just ask the Agent *"push my latest changes"* anytime.
 
 ---
 
-### Step 8 — Invite your instructor (1 min)
+### Step 7 — Invite your instructor (1 min)
 
 So your instructor can help you directly without screensharing:
 
@@ -114,7 +101,7 @@ So your instructor can help you directly without screensharing:
 
 ---
 
-### Step 9 — Introduce yourself in Discord (1 min)
+### Step 8 — Introduce yourself in Discord (1 min)
 
 Join the camp community at [discord.gg/DK3CCuSge](https://discord.gg/DK3CCuSge) and post in **#general**:
 
@@ -122,7 +109,7 @@ Join the camp community at [discord.gg/DK3CCuSge](https://discord.gg/DK3CCuSge) 
 
 ---
 
-### Step 10 — Make it yours
+### Step 9 — Make it yours
 
 Open `main.py` and change the `SYSTEM_PROMPT` line — one line change, totally different tool:
 
@@ -177,7 +164,7 @@ answer = ask_ai(
 
 | Day | You build |
 |---|---|
-| 1 | Your first AI tool + version control set up |
+| 1 | Your first AI tool + your code saved to GitHub |
 | 2 | A tech spec + scaffolded project, ready to design |
 | 3 | Design references — your app's visual identity starts here |
 | 4 | A design spec + working v1, built from your specs |
